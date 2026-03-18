@@ -204,7 +204,7 @@ This demo visualizes the inference pipeline of:
 - **GNN:** `EvidenceHeteroGNN` — 3-layer `HeteroConv` (`SAGEConv`), attention-pooled evidence aggregation, source credibility gate, gradient reversal domain head
 - **Training:** 5 seeds, AdamW lr=2e-4, 80 epochs cosine annealing, asymmetric loss (w_fp=2.0)
 
-### Main results (FakeNewsNet, n=1,250)
+### Main results (FakeNewsNet)
 
 | Model | Accuracy | F1 | AUC |
 |---|---|---|---|
