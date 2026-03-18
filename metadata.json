@@ -1,0 +1,5 @@
+{
+  "name": "Evidence-Aware GNN+RAG",
+  "description": "A RAG-augmented Graph Neural Network for evidence-based fake news detection.",
+  "requestFramePermissions": []
+}
