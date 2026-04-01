@@ -238,7 +238,7 @@ export default function App() {
     } else {
       // Call Gemini for custom input
       try {
-        const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+        const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY });
         const response = await ai.models.generateContent({
           model: 'gemini-3.1-pro-preview',
           contents: `You are an AI simulating the output of an Evidence-Aware GNN+RAG fake news detection system.
